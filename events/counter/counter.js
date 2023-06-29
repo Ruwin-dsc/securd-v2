@@ -20,6 +20,6 @@ module.exports = {
                     if (channel.name !== `${counter.name.replace("{count}", count.toString())}`) channel.setName(`${counter.name.replace("{count}", count.toString())}`);
                 }
             })
-        }, 120000)
+        }, 1200)
     }
 }
